@@ -1,8 +1,8 @@
 // recursive
-const fact = (n) => {
-    if(n===1){
-        return 1;
+const ascending_sum = (n) => {
+    if(n===0){
+        return 0;
     } else{
-        return fact(n-1) * n;
+        return ascending(n-1) + n;
     }
 }
